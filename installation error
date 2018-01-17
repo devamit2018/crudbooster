@@ -1,0 +1,14 @@
+In Connection.php line 664:
+
+  SQLSTATE[HY000] [1049] Unknown database 'project1' (SQL: select * from information_schema.tables where table_schema = project1 and table_name =
+  migrations)
+
+
+In PDOConnection.php line 47:
+
+  SQLSTATE[HY000] [1049] Unknown database 'project1'
+
+
+In PDOConnection.php line 43:
+
+  SQLSTATE[HY000] [1049] Unknown database 'project1'
